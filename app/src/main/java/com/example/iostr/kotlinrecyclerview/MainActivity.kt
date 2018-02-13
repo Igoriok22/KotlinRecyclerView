@@ -7,7 +7,7 @@ import android.support.v7.widget.LinearLayoutManager
 import android.view.MenuItem
 import kotlinx.android.synthetic.main.activity_main.*
 
-class MainActivity : AppCompatActivity() , PeopleAdapter.FragmentCallBack {
+class MainActivity : AppCompatActivity() , PersonSelectionListener {
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
