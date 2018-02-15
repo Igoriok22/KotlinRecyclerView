@@ -27,7 +27,7 @@ class PersonFragment : Fragment() {
 
 
 
-    companion object {
+    companion object  {
         fun newInstance(name: String,  age : Int):PersonFragment{
 
             val personFragment = PersonFragment()

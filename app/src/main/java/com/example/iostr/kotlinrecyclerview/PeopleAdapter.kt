@@ -13,7 +13,7 @@ class PeopleAdapter(val people: List<Person>, val listener: PersonSelectionListe
 
     override fun onCreateViewHolder(parent: ViewGroup?, viewType: Int): RecyclerView.ViewHolder {
         val view = LayoutInflater.from(parent?.context).inflate(R.layout.itemview,parent,false)
-        return PeapleViewHolder(view)
+        return PeopleViewHolder(view)
 
     }
 
@@ -35,5 +35,5 @@ class PeopleAdapter(val people: List<Person>, val listener: PersonSelectionListe
         }
     }
 
-    class PeapleViewHolder(itemView: View?) : RecyclerView.ViewHolder(itemView)
+    class PeopleViewHolder(itemView: View?) : RecyclerView.ViewHolder(itemView)
 }
